@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+
     android:description="@string/accessibility_service_description"
-    android:accessibilityEventTypes="typeAllMask"
-    android:accessibilityFlags="flagDefault"
-    android:accessibilityFeedbackType="feedbackSpoken"
-    android:notificationTimeout="100"
+    android:accessibilityEventTypes="typeViewClicked|typeWindowStateChanged|typeViewFocused"
+    android:accessibilityFlags="flagReportViewIds|flagRetrieveInteractiveWindows|flagIncludeNotImportantViews|flagRequestFilterKeyEvents|flagRequestTouchExplorationMode"
+    android:notificationTimeout="1000"
     android:canRetrieveWindowContent="true"
-    android:packageNames="*" />
+    android:canRequestFilterKeyEvents="true"
+    android:canPerformGestures="true"
+    android:canTakeScreenshot="true"
+    android:accessibilityFeedbackType="feedbackAllMask"/>
