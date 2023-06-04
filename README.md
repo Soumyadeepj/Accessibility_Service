@@ -6,4 +6,4 @@ so that it can be controlled through volumn button.Its working as follows-
 
 2.When it is pressed, print the package name of the currently active application
 
-3.If currently opened  app is whatsapp, figure out and print which screen is currently opened (Home scree, Chat screen, profile details screen)
+3.If currently opened  app is whatsapp(or anything), figure out and print which screen is currently opened (Home scree, Chat screen, profile details screen)
